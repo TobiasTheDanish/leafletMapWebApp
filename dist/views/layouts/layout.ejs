@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Non third party styles-->
+    <link rel="stylesheet" href="/public/css/views.css"/>
+    <link rel="stylesheet" href="/public/css/partials.css"/>
+
+    <!-- Leaflet css import-->
+    <link rel="stylesheet" 
+          href="/public/leafletSrc/leaflet.css"/>
+
+    <!-- Leaflet javascript import-->
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="/public/leafletSrc/leaflet.js"></script>
+    <title>WebMap</title>
+</head>
+<body>
+    <%- include('../partials/header.ejs') %> 
+    <%- body %>
+</body>
+</html>
