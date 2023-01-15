@@ -38,8 +38,6 @@ function initMap(locations) {
             console.log("PostLocation() unsuccesfull. Error message: " + err.message);
         })
     });
-
-    map.attributionControl.addAttribution()
 }
 
 async function postLocation(lat, lng) {
